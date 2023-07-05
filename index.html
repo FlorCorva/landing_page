@@ -30,17 +30,67 @@
         width: 80px;
         height: 80px;
       }
+
+      /* Estilos para la portada */
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f2f2f2;
+      }
+
+      .content {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        margin-right: 10px;
+      }
+
+      .image {
+        width: 300px;
+        margin-left: 20px;
+      }
     </style>
   </head>
+
+  <body>
+    <div class="navbar">
+      <a href="#contacto">Contacto</a>
+      <a href="#servicios">Servicios que brindo</a>
+      <a href="#quien-soy">Quién soy yo</a>
+      <img class="logo" src="img/logo.png" alt="Logo" />
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <h1>Florencia Diseños</h1>
+        <h2>
+          Te brindo un servicio integral para ayudarte con tus redes sociales
+        </h2>
+        <a class="button" href="#">Contratar servicio</a>
+        <a class="button" href="#">Quiero mas información</a>
+      </div>
+      <img class="image" src="img/amigos.svg" alt="Imagen ilustrativa" />
+    </div>
+
+    <!-- Resto del contenido de la página -->
+  </body>
 </html>
-
-<body>
-  <div class="navbar">
-    <a href="#contacto">Contacto</a>
-    <a href="#servicios">Servicios que brindo</a>
-    <a href="#quien-soy">Quién soy yo</a>
-    <img class="logo" src="img/logo.png" alt="Logo" />
-  </div>
-
-  <!-- Resto del contenido de la página -->
-</body>
